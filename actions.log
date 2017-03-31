@@ -1,0 +1,39 @@
+Adafruit GFX library installed: https://github.com/adafruit/Adafruit-GFX-Library
+Max72xxPanel library installed: https://github.com/markruys/arduino-Max72xxPanel
+
+Cosas para conectar la pantalla: https://www.arduino.cc/en/Reference/SPI
+
+ICSP
+1	2
+3	4
+5	6
+
+1: MISO
+2: VDD (+5V)
+3: SCK
+4: MOSI
+5: RST ¿?
+6: GND
+
+
+>>> PUNTO
+Tiempo - esencial
+movimiento
+	easing: https://processing.org/examples/easing.html
+	cada cierto tiempo: define objetivos de movimiento, se desplaza hacia ellos
+		bordes
+		velocidades de movimiento variables
+			dependientes de ¿?
+		hora de la siesta
+			interrumpida por comida
+				(acelerómetro?)
+puede moverse en patrones geométricos ¿?
+camina hacia comida (atracción)
+huye de ciertos puntos (repulsión)
+
+>>> IDEAS
+stats
+	consulta de stats via twitter
+"captura de pantalla" como respuesta
+alimentación remota
+live feed
