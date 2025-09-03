@@ -10,14 +10,14 @@ Es parte de la intención el comprender la forma en que se entiende el comportam
 Ajolote está dividido en dos secciones, la conjunción de matriz de pantallas y la red de sensores infrarrojos.
 
 ## Sensores infrarrojos
-Los emisores y receptores infrarrojos se encuentran en secciones separadas, la parte de los receptores se colocó en una protoboard con jumpers dirigidos a los pines analógicos A0 a A5.
+Los emisores y receptores infrarrojos se encuentran en secciones separadas, la parte de los receptores se colocó en una protoboard con jumpers dirigidos a los pines analógicos `A0` a `A5`.
 
-Los emisores se conectaron en una red separada, directamente hacia el pin 31, con la finalidad de controlar el flujo de energía durante la calibración inicial.
+Los emisores se conectaron en una red separada, directamente hacia el pin `31`, con la finalidad de controlar el flujo de energía durante la calibración inicial.
 
 Los emisores y receptores se encuentran colocados a intervalos equivalentes en posiciones opuestas de forma paralela a la matriz de LED, de esta forma, la interrupción del contacto de uno genera un método para encender un LED específico en una posición aleatoria correspondiente en la matriz.
 
 ## Matrices LED
-Las matrices led, conectadas de forma individual a un chip MAX7219 se encuentran conectadas a los puertos MOSI y SCK de la interfaz SPI, además se interconectan en cascada en forma horizontal, para obtener unamatriz de 8 x 31 LED.
+Las matrices led, conectadas de forma individual a un chip MAX7219 se encuentran conectadas a los puertos `MOSI` y `SCK` de la interfaz `SPI`, además se interconectan en cascada en forma horizontal, para obtener una matriz de `8 x 31` LED.
 
 ## Descripción lógica
 <img width="1106" height="624" alt="image" src="https://github.com/user-attachments/assets/934044ac-aee6-4a3c-9a0e-7f491eecd717" />
